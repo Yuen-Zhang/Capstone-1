@@ -1,4 +1,30 @@
+/*set of color and can use with var(--)*/
+:root {
+    --pale: #e0dcbf;
+    --grey: #767672;
+}
 
 .description {
     font-style: italic;
+}
+/*navbar design*/
+.navbar {
+    background-color: var(--pale);
+}
+.navbar-brand{
+    font-size: 40px;
+}
+.nav-link, .navbar-brand {
+    color: #000000;
+    font-family: 'Nova Oval', cursive;
+}
+main {
+    margin-top: 120px;
+}
+
+a:hover {
+    color: var(--grey);
+}
+.webname {
+    font-size: 40px;
 }

@@ -1,17 +1,21 @@
+/*set of color and can use with var(--)*/
+:root {
+    --pale: #e0dcbf;
+    --grey: #767672;
+}
 
+.container {
+    margin-top: 20px;
+}
+
+/*carousel design*/
 #carouselExampleIndicators {
     width: 500px;
     margin: 0 75px;
 }
-button{
-    border: 0;
-}
-.carousel-control-prev{
-    left: -75px;
-}
-.carousel-control-next{
-    right: -75px;
-}
+
+
+/*additional design*/
 .addition {
     text-align: center;
 }
@@ -22,20 +26,24 @@ button{
 .col-md-4 {
     text-align: center;
     margin: 10px 0px;
- 
+    
     
 }
+
+/*products page design*/
 a {
     text-decoration-style: none;
     font-weight: 400;
     color: #000000;
 }
-/* mouse over link */
+    /* mouse over link */
 a:hover {
-    color: #767672;
+    color: var(--grey);
     image-resolution: ;
   }
-
+/*all images in the products page*/
 img {
     border-radius: 8px;
 }
+ 
+    
