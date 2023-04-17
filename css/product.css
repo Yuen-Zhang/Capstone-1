@@ -1,0 +1,41 @@
+
+#carouselExampleIndicators {
+    width: 500px;
+    margin: 0 75px;
+}
+button{
+    border: 0;
+}
+.carousel-control-prev{
+    left: -75px;
+}
+.carousel-control-next{
+    right: -75px;
+}
+.addition {
+    text-align: center;
+}
+#additionrow {
+    padding: 10px;
+    text-align: center;
+}
+.col-md-4 {
+    text-align: center;
+    margin: 10px 0px;
+ 
+    
+}
+a {
+    text-decoration-style: none;
+    font-weight: 400;
+    color: #000000;
+}
+/* mouse over link */
+a:hover {
+    color: #767672;
+    image-resolution: ;
+  }
+
+img {
+    border-radius: 8px;
+}
