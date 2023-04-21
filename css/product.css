@@ -1,7 +1,12 @@
 /*set of color and can use with var(--)*/
 :root {
-    --pale: #e0dcbf;
+    --pale: #f0e8a8;
     --grey: #767672;
+    --sand: #d0c56c;
+    --sanddark: #beae36;
+    --pink: #e6a0b9;
+    --pinkdark: #c97190;
+
 }
 
 .container {
@@ -18,32 +23,31 @@
 /*additional design*/
 .addition {
     text-align: center;
+    margin-top: 50px;
 }
 #additionrow {
     padding: 10px;
     text-align: center;
 }
+/*products page design*/
 .col-md-4 {
     text-align: center;
     margin: 10px 0px;
-    
-    
 }
 
-/*products page design*/
 a {
     text-decoration-style: none;
     font-weight: 400;
     color: #000000;
 }
-    /* mouse over link */
-a:hover {
-    color: var(--grey);
-    image-resolution: ;
-  }
+
 /*all images in the products page*/
 img {
-    border-radius: 8px;
+    border-radius: 5px;
 }
  
-    
+.card {
+    border: none;
+  } 
+
+  

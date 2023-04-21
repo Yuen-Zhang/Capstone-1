@@ -1,30 +1,214 @@
 /*set of color and can use with var(--)*/
 :root {
-    --pale: #e0dcbf;
+    --pale: #f0e8a8;
     --grey: #767672;
+    --sand: #d0c56c;
+    --sanddark: #beae36;
+    --pink: #e6a0b9;
+    --pinkdark: #c97190;
+    --pinklight: #e0c6cf;
 }
-
+/*navbar design*/
+.navbar-brand {
+    color: white;
+    font-family: 'Nova Oval', cursive;
+    font-size: 40px;
+}
+.nav-item, .dropdown-item {
+  font-size: 20px;
+}
+.dropdown-menu {
+  border: solid var(--pink);
+}
+#logo {
+  font-family: 'Nova Oval', cursive;
+}
+#logopic {
+  height: 100px;
+  width: 100px;
+}
+header {
+  margin: 10px 0px;
+  background-color: white;
+  text-align: center;
+}
+#navlogo {
+  border-radius: 100px;
+  height: 60px;
+}
+.navbaricon {
+  color: var(--pink);
+  margin: 0 10px;
+  width: 35px;
+  height: 35px;
+}    
+/*main content*/
+main {
+    margin-top: 20px;
+}
 .description {
     font-style: italic;
 }
-/*navbar design*/
-.navbar {
-    background-color: var(--pale);
-}
-.navbar-brand{
-    font-size: 40px;
-}
-.nav-link, .navbar-brand {
-    color: #000000;
-    font-family: 'Nova Oval', cursive;
-}
-main {
-    margin-top: 120px;
-}
-
 a:hover {
     color: var(--grey);
 }
 .webname {
     font-size: 40px;
+}
+/*homepage*/
+.carousel-item {
+  height: 640px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.carousel-image1 {
+  box-shadow: inset 0 0 0 100vw #0000004d;
+  background-image: url("../images/homepage/banner-pic1.jpeg");
+}
+.carousel-image2 {
+  box-shadow: inset 0 0 0 100vw #0000004d;
+  background-image: url("../images/homepage/banner-freeshipping.jpeg");
+}
+#caption2 {
+  position: absolute;
+  top: 40%;
+  right: 40%;
+}
+.carousel-image3 {
+  box-shadow: inset 0 0 0 100vw #0000004d;
+  background-image: url("../images/homepage/banner-pic2.jpeg");
+}
+.joinus {
+  text-decoration: none !important;
+  color: #000000;
+  font-size: large;
+  font-weight: bold;
+}
+.summerpara, .customize, .easySteps {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+}
+.tastethesummer {
+  font-size: 25px;
+}
+.pressOnstep {
+  list-style: number;
+  font-size: 25px;
+}
+
+/*change button color*/
+.btn-success, .btn-success:active, .btn-success:visited {
+    background-color: var(--pink);
+    border: var(--sand);
+}
+.btn-success:hover {
+    background-color: var(--pinkdark);
+}
+.btn-outline-success, .btn-outline-success:active, .btnoutline--success:visited {
+    border: solid var(--pink);
+    color: var(--pink);
+}
+.btn-outline-success:hover {
+    background-color: var(--pink);
+    border: var(--pink);
+}
+.btn-primary, .btn-primary:active, .btn--primary:visited {
+  background-color: var(--pink);
+  border: var(--pink);
+}
+.btn-primary:hover {
+  background-color: var(--pinkdark);
+
+}
+.btn-outline-primary, .btn-outline-primary:active, .btnoutline--primary:visited {
+
+  border: solid var(--pink);
+  color: var(--pink);
+}
+.btn-outline-primary:hover {
+  background-color: var(--pink);
+  border: var(--pink);
+}
+  /*customizepage*/ 
+  .greeting {
+    text-align: center;
+  }
+  .servicedescription {
+    font-size: 25px;
+    margin: 5px;
+  }
+  ul {
+    display: inline-block;
+    font-style: italic;
+  }
+  ol {
+    display: inline-block;
+    list-style: upper-roman;   
+  }
+  li {
+    font-size: 25px;
+    padding-top: 10px;
+  }
+  #orderForm {
+    background: radial-gradient(#f0e8a8, #e0c6cf);
+  }
+  form {
+    background-color: antiquewhite;
+    padding: 10px;
+  }
+/*size and shape info offcanvas*/
+#know-the-size, #choose-the-shape {
+  width: 600px;
+}
+
+/*loginpage*/
+#formtitle {
+  text-align: center;
+}
+#adjustbutton {
+ width: fit-content;
+}
+#createaccountlink, #forgotpass {
+  text-align: center;
+  color: #000000;
+}
+.g-signin2{
+  width: 100%;
+}
+
+.g-signin2 > div{
+  margin: 0 auto;
+}
+/*shopping bag offcanvas*/
+#shoppingbag {
+  width: 650px;
+}
+.breadcrumb-item {
+  font-size: medium;
+}
+/*footer*/
+.footericon {
+  color: var(--pink);
+  margin: 0 10px;
+  width: 25px;
+  height: 25px;
+}
+.footercopyright {
+  color: var(--pink);
+  margin: 0 10px;
+  padding-bottom: 20px;
+
+}
+/*footer for login page*/
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 380px;    /* Footer height */
 }
