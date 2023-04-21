@@ -50,4 +50,26 @@ img {
     border: none;
   } 
 
+#review-row ul li {
+    display: inline-block;
+    font-size: 18px;
+    color: var(--pink);
+  }
+#review-row .col-3 {
+    width: fit-content;
+ }
+ #review-row .col {
+    display: inline-block;
+    padding-top: 10px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  #review-row ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0;    
+  }
   
